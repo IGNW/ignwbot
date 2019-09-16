@@ -1,3 +1,20 @@
+# Description:
+#   Crab Rave
+#
+# Dependencies:
+#   None
+#
+# Configuration:
+#   None
+#
+# Commands:
+#   crabrave - CRAB RAVE!
+#   crab     - CRAB RAVE!
+#   rave     - TOM RAVE!
+#
+# Author:
+#   dkerr
+
 module.exports = (robot) ->
     robot.hear /(^|\W)crabrave($|\W)/i, (res) ->
         res.send "CRAB RAVE!!!\n https://www.youtube.com/watch?v=LDU_Txk06tM"
