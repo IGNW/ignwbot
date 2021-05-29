@@ -5,7 +5,7 @@
   "author": "dkerr@ignw.io",
   "description": "A simple helpful robot for your Company",
   "dependencies": {
-    "ws": ">=3.3.1",
+    "ws": ">=7.4.6",
     "hubot": "^3.3.2",
     "hubot-diagnostics": "^1.0.0",
     "hubot-google-images": "^0.2.7",
